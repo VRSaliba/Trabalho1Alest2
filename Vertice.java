@@ -15,4 +15,12 @@ public class Vertice
     {
         arestasLigadas.put(nomeAresta, aresta);
     }
+
+    public boolean achaAresta(String nomeAresta)
+    {
+        if(arestasLigadas.containsKey(nomeAresta))
+            return true;
+        else
+            return false;
+    }
 }

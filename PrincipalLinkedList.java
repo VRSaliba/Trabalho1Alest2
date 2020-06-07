@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Principal
+public class PrincipalLinkedList
 {
     public static void main(String args[])
     {
