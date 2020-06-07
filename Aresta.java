@@ -4,7 +4,7 @@ public class Aresta
     Vertice vert2;
     double peso;
 
-    public Aresta(Vertice v1, Vertice v2, int p)
+    public Aresta(Vertice v1, Vertice v2, double p)
     {
         vert1 = v1;
         vert2 = v2;
